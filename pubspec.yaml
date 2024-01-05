@@ -1,0 +1,165 @@
+name: lowproject
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.1 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  cupertino_icons: ^1.0.2
+  device_preview: ^1.1.0
+  dotted_border: ^2.1.0
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.6
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  get: ^4.6.6
+  google_fonts: ^6.1.0
+  vibration: ^1.8.4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - asset\قوانين-2.webp
+    - asset\garden.jpg
+    - asset\قوانين-3.png
+    - asset\portfolio.png
+    - asset\three\man-woman-icon.png
+    - asset\writing.png
+    - asset\app33237 1.png
+    - asset\closeup-shot-person-holding-gavel-tabl 1.png
+    - asset\four\settings-(2).png
+    - asset\balance-1-svgrepo-com.png
+    - asset\four\home.png
+    - asset\balance-1-svgrepo-com (1).png
+    - asset\three\baby-icon.png
+    - asset\three\miscommunication-icon.png
+    - asset\three\law-icon.png
+    - asset\three\regulation-icon.png
+    - asset\two\law-legal-icon.png
+    - asset\two\newspaper-icon.png
+    - asset\three\bride-icon.png
+    - asset\finance (3).png
+    - asset\newspapers.png
+    - asset\three\hand-money-dollar-coin-icon.png
+    - asset\three\women-empowerment-icon.png
+    - asset\three\broken-heart-icon.png
+    - asset\three\penalty-icon.png
+    - asset\three\man-woman-symbol-icon.png
+    - asset\three\scale-icon.png
+    - asset\two\bank-finance-loan-icon.png
+    - asset\two\seminar-speech-icon.png
+    - asset\Path 12402.png
+    - asset\lawyer1.png
+    - asset\enlarge_Captu222re.png
+    - asset\NB-262672-636874639591817294 1.png
+    - asset\Visa.png
+    - asset\sIcon\Vector.png
+    - asset\sIcon\Vector-1.png
+    - asset\sIcon\Vector-2.png
+    - asset\sIcon\Vector-3.png
+    - asset\sIcon\Vector-4.png
+    - asset\fdf0695374 1.png
+    - asset\sharing 1.png
+    - asset\sIcon\Icon feather-search.png
+    - asset\four\search.png
+    - asset\two\rights-icon.png
+    - asset\two\regulations-icon.png
+    - asset\four\comment.png
+    - asset\four\apps-add.png
+    - asset\four\gavel.png
+    - asset\three\scale-icon.png
+    - asset\one\Vector (8).png
+    - asset\one\Vector (9).png
+    - asset\one\Vector (10).png
+    - asset\three\pen.png
+    - asset\perfume3.png
+    - asset\image.png
+    - asset\resume-and-cv 1.png
+    - asset\kisspng-vector 1.png
+    - asset\balance 1.png
+    - asset\rating 1.png
+    - asset\reputation 1.png
+    - asset\interview 1.png
+    - asset\b32alance 1.png
+    - asset\telephone-call-(1) 1.png
+    - asset\enlarge_Rectangle_698.png
+    - asset\hut.png
+    - asset\app10 1.png
+    - asset\postion.png
+    - asset\Vector11.png
+    - asset\Vector 44.png
+    - asset\selectImage2.png
+    - asset\selectImage1.png
+    - asset\splash.png
+    - asset\164c3ea920 1.png
+    - asset\balance-2.png
+    - asset\navigation.png
+    - asset\WhatsApp_Image_2023-10-19_at_12.15.09-removebg-preview.png
+    - asset\balance-111.png
+    - asset\Iraqi-Laws.png
+    - asset\svgS\Vector.svg
+    - asset\svgS\Vector-4.svg
+    - asset\svgS\Vector-3.svg
+    - asset\svgS\Vector-2.svg
+    - asset\svgS\Vector-1.svg
+    - asset\svgS\Icon feather-search.svg
+    - asset\Iraqi-Laws-Guide 1.png
+    - asset\Path 12411.png
+    - asset\Path 12410.png
+    - asset\home111.png
+    - asset\lawyer.png
+    - asset\law 1.png
+    - asset\legal-service.png
+    - asset\Path 12399.png
+    - asset\Iraqi-Laws-Guide.svg
+    # An image asset can refer to one or more resolution-specific "variants", see
+    # https://flutter.dev/assets-and-images/#resolution-aware
+    # For details regarding adding assets from package dependencies, see
+    # https://flutter.dev/assets-and-images/#from-packages
+    # To add custom fonts to your application, add a fonts section here,
+    # in this "flutter" section. Each entry in this list should have a
+    # "family" key with the font family name, and a "fonts" key with a
+    # list giving the asset and other descriptors for the font. For
+    # example:
+  fonts:
+    - family: Alexandria
+      fonts:
+        - asset: asset\fonts\Alexandria-SemiBold.ttf
+      # For details regarding fonts from package dependencies,
+    # see https://flutter.dev/custom-fonts/#from-packages
