@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+
+target 'Runner' do
+  use_frameworks!
+
+  # Flutter Pod
+  flutter_root = File.dirname(File.realpath(__FILE__))
+  Dir.chdir(flutter_root) do
+    system('flutter', 'build', 'ios', '--no-profile')
+  end
+
+  pod 'Flutter', :path => "#{flutter_root}/flutter"
+  pod 'FlutterPluginRegistrant', :path => "#{flutter_root}/flutter"
+end
